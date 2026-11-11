@@ -69,46 +69,34 @@ const socialLinks = [
 ];
 
 const projects = [
-  {
-    number: "01",
-    name: "Filesleuth",
-    type: "FILE INTELLIGENCE",
-    description:
-      "A tool to explore files, understand their contents, and find what matters.",
-    color: "lime",
-    icon: "▤",
-    tags: ["Java", "Spring Boot", "MongoDB"],
-    status: "IN PROGRESS",
-    github: "https://github.com/binaryxor/filesleuth",
-    demo: "",
-  },
-  {
-    number: "02",
-    name: "DeFi Risk Lab",
-    type: "BLOCKCHAIN SIMULATION",
-    description:
-      "Explore lending, borrowing, liquidations, and financial risk in a controlled environment.",
-    color: "pink",
-    icon: "◈",
-    tags: ["Java", "Blockchain", "Simulation"],
-    status: "IN PROGRESS",
-    github: "",
-    demo: "",
-  },
-  {
-    number: "03",
-    name: "Airline DB",
-    type: "DATABASE SYSTEM",
-    description:
-      "A database-driven airline management system with flights, bookings, and passenger records.",
-    color: "yellow",
-    icon: "✈",
-    tags: ["SQL", "Database", "Web"],
-    status: "IN PROGRESS",
-    github: "",
-    demo: "",
-  },
-];
+  
+{
+  number: "01",
+  name: "QueueFlow",
+  type: "QUEUE MANAGEMENT SYSTEM",
+  description:
+    "A digital queue management platform designed to streamline service workflows through queue handling, token management, and real-time queue monitoring.",
+  color: "pink",
+  icon: "⌛",
+  tags: ["Java", "Spring Boot", "MySQL", "Docker", "React", "WebSocket"],
+  status: "IN PROGRESS",
+  github: "",
+  demo: "",
+},
+{
+  number: "02",
+  name: "Airline DB",
+  type: "DATABASE SYSTEM",
+  description:
+    "A database-driven airline management system designed to organize flight schedules, passenger information, booking records, and airline operations through structured data management.",
+  color: "yellow",
+  icon: "✈",
+  tags: ["Java", "SQL", "Database Management", "Web"],
+  status: "IN PROGRESS",
+  github: "",
+  demo: "",
+},
+]
 
 function PixelCloud({ className = "" }) {
   return (
